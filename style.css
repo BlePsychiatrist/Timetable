@@ -1,0 +1,19 @@
+
+table, tr, th, td{
+    border: 2px solid rgba(16, 16, 16, 0.826);
+    font-family:'Courier New', Courier, monospace;
+    border-collapse: collapse;
+    text-align: center;
+    padding: 15px 15px;
+    border-top: solid;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+tbody tr:nth-child(odd){
+    background-color: #f0f0f2
+}
+.head{
+    text-align: center;
+}
